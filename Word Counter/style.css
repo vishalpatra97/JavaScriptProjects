@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(14, 98, 194);
+    color: white;
+    padding: 10px;
+
+}
+
+#textbox{
+    width: 100%;
+    border-color: rgb(14, 98, 194);
+    font-size: 15px;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(14, 98, 194);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    
+}

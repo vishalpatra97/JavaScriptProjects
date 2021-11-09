@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #273036;
+}
+
+body, .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: gold;
+    transition: background 0.4s ease;
+}
+.container{
+    justify-content: center;
+    margin-top: 30px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 1;
+    box-shadow: 0px 0px 10px #27303650;
+}
+form {
+    border-bottom: 2px solid #273036;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+form > input{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+form > input[type='submit']{
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+form > input[type='submit']:hover{
+    background-color: #273036;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+i{
+    font-size: 20px;
+}
+
+#btn:active {
+transform: scale(0.90);
+}
+/*----------------------------*/
+.container > p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.container .city{
+    font-size: 30px;
+}
+.container .temperature{
+    font-size: 40px;
+}
