@@ -65,7 +65,7 @@ generateEl.addEventListener('click', generatePassword);
 
 copyEl.addEventListener('click', () => {
     const textarea = document.createElement('textarea');
-    const password = pwEL.innerText;
+    const password = pwEl.innerText;
 
     if(!password) { return;}
 

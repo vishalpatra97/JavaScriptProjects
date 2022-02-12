@@ -27,6 +27,13 @@ const quizData = [
         c: 'Block Chain Technology',
         d: 'None Of The Above',
         correct: 'c',
+    },{
+        question: "flutter is based on -",
+        a: 'Javascript',
+        b: 'Python',
+        c: 'Dart',
+        d: 'None Of The Above',
+        correct: 'c',
     },
 ];
 

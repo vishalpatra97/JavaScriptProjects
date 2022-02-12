@@ -21,7 +21,7 @@ description.classList.add('description');
 function getWeather(e) {
     e.preventDefault();
     let location = document.querySelector('#textbox').value;
-    fetch(`http://api.weatherapi.com/v1/current.json?key=a591d3184a8c4945b6755056213010&q=${location}&aqi=yes`)
+    fetch(`http://api.weatherapi.com/v1/current.json?key=cb61f1341dfa488795743744222901&q=${location}&aqi=yes`)
         .then(response => response.json())
         .then(data => {
             // console.log(data);
